@@ -1,0 +1,11 @@
+......
+
+<theme>
+    <staticMaxAge>-1</staticMaxAge>
+    <cacheThemes>false</cacheThemes>
+    <cacheTemplates>false</cacheTemplates>
+    <dir>${jboss.home.dir}/themes</dir>
+    <welcomeTheme>custom</welcomeTheme>
+</theme>
+
+......

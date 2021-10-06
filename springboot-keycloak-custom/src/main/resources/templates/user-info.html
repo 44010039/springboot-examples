@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>User Info</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div id="container">
+            <h1>Hello, <span th:text="${username}">--name--</span>.</h1>
+            <h3>Your Date of Birth as per our records is <span th:text="${dob}" />.</h3>
+        </div>
+    </div>
+</body>
+
+</html>
