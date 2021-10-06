@@ -16,8 +16,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import net.springboot.examples.KeycloakApplicaion;
-
 
 @Disabled("需要开启keycloak服务")
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.DEFINED_PORT, classes = {KeycloakApplicaion.class})
